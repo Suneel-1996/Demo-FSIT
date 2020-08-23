@@ -8,7 +8,7 @@ public class First {
 		System.out.println("This is a development");
 		Scanner input = new Scanner(System.in);
 		int givenInput=input.nextInt();
-		String pattern="";
+		String pattern=" ";
 		for(int i =0;i<=givenInput;i--) {
 			pattern =pattern+"*";
 			System.out.println(pattern);
